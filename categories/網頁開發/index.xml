@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>網頁開發 on Holla</title>
+    <link>https://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/</link>
+    <description>Recent content in 網頁開發 on Holla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2022 18:53:44 +0800</lastBuildDate><atom:link href="https://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Setup</title>
+      <link>https://colgay.github.io/test/posts/hugo-setup/</link>
+      <pubDate>Fri, 14 Jan 2022 18:53:44 +0800</pubDate>
+      
+      <guid>https://colgay.github.io/test/posts/hugo-setup/</guid>
+      <description>Step 1: 安裝 Hugo 透過 Chocolaty 安裝 (Windows) 如果你正在使用 Windows 裝置 和使用 Chocolatey 作為 package management, 你可以輸入以下指令安裝 Hugo:
+choco install hugo -confirm  Or if you need the “extended” Sass/SCSS version:
+choco install hugo-extended -confirm  輸入以下指令確認你的安裝
+hugo version  
+Step 2: 建立一個新的網站 hugo new site your_site_name  以上指令會為你建立一個新的 Hugo 網站 名為 your_site_name
+Step 3: 加入 Theme 瀏覽 (https://themes.gohugo.io/) 查看可用的 themes
+首先，在 GitHub 下載你想要的 theme 之後加進你網站的 themes 目錄
+cd your_site_name git init git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

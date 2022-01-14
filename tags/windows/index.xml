@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Holla</title>
+    <link>https://colgay.github.io/test/tags/windows/</link>
+    <description>Recent content in windows on Holla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2022 19:24:34 +0800</lastBuildDate><atom:link href="https://colgay.github.io/test/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安裝 Chocolatey</title>
+      <link>https://colgay.github.io/test/posts/chocolatey_installation/</link>
+      <pubDate>Fri, 14 Jan 2022 19:24:34 +0800</pubDate>
+      
+      <guid>https://colgay.github.io/test/posts/chocolatey_installation/</guid>
+      <description>透過 powershell.exe 安裝  首先，你需要確保 Get-ExecutionPolicy 不是 Restricted   輸入 Get-ExcutionPolicy， 如果它顯示 Restricted， 之後請輸入 Set-ExecutionPolicy AllSigned 或者 Set-ExecutionPolicy Bypass -Scope Process。
+  現在輸入以下指令  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))  安裝完成後, 輸入 choco 或者 choco -? 查看相關指令。  </description>
+    </item>
+    
+  </channel>
+</rss>
