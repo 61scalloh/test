@@ -30,9 +30,9 @@ choco install hugo -confirm  Or if you need the “extended” Sass/SCSS version
 choco install hugo-extended -confirm  輸入以下指令確認你的安裝
 hugo version  
 Step 2: 建立一個新的網站 hugo new site your_site_name  以上指令會為你建立一個新的 Hugo 網站 名為 your_site_name
+
 Step 3: 加入 Theme 瀏覽 (https://themes.gohugo.io/) 查看可用的 themes
-首先，在 GitHub 下載你想要的 theme 之後加進你網站的 themes 目錄
-cd your_site_name git init git submodule add https://github.</description>
+首先，在 GitHub 下載你想要的 theme 之後加進你網站的 themes 目錄</description>
     </item>
     
   </channel>
