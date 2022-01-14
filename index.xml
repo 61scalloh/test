@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Holla</title>
+    <link>http://colgay.github.io/test/</link>
+    <description>Recent content on Holla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2022 20:28:50 +0800</lastBuildDate><atom:link href="http://colgay.github.io/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 使用 HTML 代碼</title>
+      <link>http://colgay.github.io/test/posts/hugo_use_html_code/</link>
+      <pubDate>Fri, 14 Jan 2022 20:28:50 +0800</pubDate>
+      
+      <guid>http://colgay.github.io/test/posts/hugo_use_html_code/</guid>
+      <description>自 0.6 版本之後, Hugo 使用了 Goldmark 作為 markdown。
+因為安全起見，Goldmark 將不能使用 HTML code。
+然而，如果你經常在你的網站使用 HTML，你可以加以下指令到你的 config.toml
+[markup.goldmark.renderer] unsafe = true # Allow HTML in md files </description>
+    </item>
+    
+    <item>
+      <title>安裝 Chocolatey</title>
+      <link>http://colgay.github.io/test/posts/chocolatey_installation/</link>
+      <pubDate>Fri, 14 Jan 2022 19:24:34 +0800</pubDate>
+      
+      <guid>http://colgay.github.io/test/posts/chocolatey_installation/</guid>
+      <description>透過 powershell.exe 安裝  首先，你需要確保 Get-ExecutionPolicy 不是 Restricted   輸入 Get-ExcutionPolicy， 如果它顯示 Restricted， 之後請輸入 Set-ExecutionPolicy AllSigned 或者 Set-ExecutionPolicy Bypass -Scope Process。
+  現在輸入以下指令  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))  安裝完成後, 輸入 choco 或者 choco -? 查看相關指令。  </description>
+    </item>
+    
+    <item>
+      <title>Hugo Setup</title>
+      <link>http://colgay.github.io/test/posts/hugo-setup/</link>
+      <pubDate>Fri, 14 Jan 2022 18:53:44 +0800</pubDate>
+      
+      <guid>http://colgay.github.io/test/posts/hugo-setup/</guid>
+      <description>Step 1: 安裝 Hugo 透過 Chocolaty 安裝 (Windows) 如果你正在使用 Windows 裝置 和使用 Chocolatey 作為 package management, 你可以輸入以下指令安裝 Hugo:
+choco install hugo -confirm  Or if you need the “extended” Sass/SCSS version:
+choco install hugo-extended -confirm  輸入以下指令確認你的安裝
+hugo version  
+Step 2: 建立一個新的網站 hugo new site your_site_name  以上指令會為你建立一個新的 Hugo 網站 名為 your_site_name
+Step 3: 加入 Theme 瀏覽 (https://themes.gohugo.io/) 查看可用的 themes
+首先，在 GitHub 下載你想要的 theme 之後加進你網站的 themes 目錄
+cd your_site_name git init git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
