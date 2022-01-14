@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Holla</title>
-    <link>http://colgay.github.io/test/categories/</link>
+    <link>https://colgay.github.io/test/categories/</link>
     <description>Recent content in Categories on Holla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jan 2022 19:24:34 +0800</lastBuildDate><atom:link href="http://colgay.github.io/test/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 19:24:34 +0800</lastBuildDate><atom:link href="https://colgay.github.io/test/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>package manager</title>
-      <link>http://colgay.github.io/test/categories/package-manager/</link>
+      <link>https://colgay.github.io/test/categories/package-manager/</link>
       <pubDate>Fri, 14 Jan 2022 19:24:34 +0800</pubDate>
       
-      <guid>http://colgay.github.io/test/categories/package-manager/</guid>
+      <guid>https://colgay.github.io/test/categories/package-manager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>網頁開發</title>
-      <link>http://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/</link>
+      <link>https://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/</link>
       <pubDate>Fri, 14 Jan 2022 18:53:44 +0800</pubDate>
       
-      <guid>http://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/</guid>
+      <guid>https://colgay.github.io/test/categories/%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC/</guid>
       <description></description>
     </item>
     
